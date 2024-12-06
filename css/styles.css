@@ -1014,5 +1014,14 @@ input[type='checkbox']:checked
   .modal-form-input {
     padding: 11px 38px;
   }
+  .close-btn:hover,
+  .close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  .close-btn:hover .close-btn-icon,
+  .close-btn:focus .close-btn-icon {
+    fill: #ffffff;
+  }
 }
 /* #endregion */
