@@ -414,6 +414,8 @@ img {
   gap: 72px;
 }
 .benefits-title {
+  display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -436,6 +438,9 @@ img {
   }
   .benefits-item {
     width: 356px;
+  }
+  .benefits-title {
+    justify-content: flex-start;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -776,7 +781,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .footer-container {
-    padding: 96px 108px;
+    padding: 0 108px;
     row-gap: 72px;
     column-gap: 24px;
     justify-content: flex-start;
